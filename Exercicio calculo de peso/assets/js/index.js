@@ -24,6 +24,8 @@ const RecieveDataIsValid = (weight, height) => {
     PrintResult(msg, false);
     return false;
   }
+
+  return true;
 };
 
 const calculateIMC = (weight, height) => {
